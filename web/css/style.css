@@ -54,11 +54,17 @@ body a:hover{
 	font-size: 2em;
 	font-weight: 300;
 }
-.navbar-brand span{ 
+.navbar-brand #LoungelyLogo{
 	display:block;
 	color:#ECECEC;
 	font-size:14px;
 	text-align: center;
+}
+.shine{
+    display:inline;
+    color:#ECECEC;
+    font-size:14px;
+    text-align: center;
 }
 .navbar-nav {
     float: right;
@@ -123,7 +129,7 @@ body a:hover{
 }
 .banner-info1 h3{
 	text-transform:capitalize;
-	font-size:2em;
+	font-size:3em;
 	color:#000;
 	margin:0;
 	font-weight: 300;
@@ -133,10 +139,11 @@ body a:hover{
 }
 .banner-info1 p{
 	margin:1em 0 2em;
-	color:#EFEFEF;
+	color: #fafafa;
 	line-height:1.8em;
-	font-size:14px;
-	width:60%;
+	font-size:20px;
+	width:100%;
+    text-align: justify;
 }
 /*-- //header-nav --*/
 /*-- data-hover --*/
@@ -1567,7 +1574,8 @@ a.list-group-item:hover, a.list-group-item:focus {
 		margin: 6em 0 0;
 	}
 	.banner-info1 h3 {
-		font-size: 1.5em;
+		font-size: 2.5em;
+        font-weight: 500;
 	}
 	.m5 a {
 		background: url(../images/5.png) no-repeat 8em 0em;
@@ -1693,6 +1701,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		-o-background-size: cover;
 		-ms-background-size: cover;
 	}
+
 	.banner-info1 p {
 		width: 71%;
 	}
@@ -1747,7 +1756,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	.navbar-nav {
 		float: none;
 		text-align: center;
-		background-color: #986019;
+		background-color: #7c7c7c;
 		padding:1em 0;
 	}
 	.navbar-nav {
@@ -1954,6 +1963,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	}
 	.banner-info1 p {
 		width: 100%;
+        font-size:50px;
 	}
 	.banner1 {
 		min-height: 400px;
@@ -2260,7 +2270,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	}
 	.banner-info1 p {
 		margin: 0.5em 0 1em;
-		font-size: 13px;
+		font-size: 20px;
 	}
 	.footer {
 		padding: 2em 0 1em;
@@ -2830,7 +2840,7 @@ table {
     margin-bottom: 10px;
 }
 table, th, td {
-    border: 1px solid #eaeaea;
+
 }
 th, td{
     padding: 10px;
@@ -3186,7 +3196,7 @@ HEADER
     padding: 55px 0;
 }
 .header .logo a{
-    display: block;
+    display: inline-block;
     overflow: hidden;
 }
 .header .logo a img{
@@ -11348,4 +11358,19 @@ REPONSIVE
     -o-background-size:cover;
     -ms-background-size:cover;
     min-height:800px;
+}
+.banner3 {
+    background: url(../images/sofa3.jpg) no-repeat -318px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height:630px;
+}
+.shine {
+    text-shadow: 0px 0px 24px #fafafa;
+    color: #000000;
+    font-size:25px;
+    text-align: center;
 }
